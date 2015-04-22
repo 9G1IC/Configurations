@@ -36,9 +36,9 @@ esac
 #force_color_prompt=yes
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-	# We have color support; assume it's compliant with Ecma-48
-	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-	# a case would tend to support setf rather than setaf.)
+        # We have color support; assume it's compliant with Ecma-48
+        # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+        # a case would tend to support setf rather than setaf.)
 	color_prompt=yes
     else
 	color_prompt=
@@ -155,6 +155,8 @@ alias dc="[ -d $_doc ] &&cd $_doc/"
 alias app="[ -d $_doc/Applications ] &&cd $_doc/Applications"
 #Application Downloader
 alias appdl="[ -d $_doc/Applications ] && sudo wget -c -P $_doc/Applications $1"
+#ISSL
+alias issl="[ -d /media/hope/ISSL ] && cd /media/hope/ISSL"
 export ERL_LIBS="/usr/lib/erlang/lib"
 #export PYTHONPATH="/usr/local/lib/python2.7/dist-packages"
 ###Default Installation
@@ -323,3 +325,4 @@ export PATH="/usr/local/cuda-7.0/bin:/home/hope/torch/install/bin:/home/hope/tor
 export LD_LIBRARY_PATH="/usr/local/cuda-7.0/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:"
 export CUDA_ROOT="/usr/local/cuda-7.0/bin"
 export GIT_EDITOR="/usr/bin/vim"
+MYSPACE="/media/hope/MySpace"

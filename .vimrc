@@ -1,5 +1,5 @@
 " Set runtime path
-"Vundle
+" Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -26,12 +26,12 @@ filetype off                  " required
 " " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
  Plugin 'bling/vim-airline'
- Plugin 'bronson/vim-trailing-whitespace'
+ "Plugin 'bronson/vim-trailing-whitespace'
  Plugin 'osyo-manga/vim-over'
  Plugin 'godlygeek/tabular'
  Plugin 'Valloric/YouCompleteMe'
  Plugin 'joonty/vdebug'
- Plugin 'tpope/vim-surround' 
+ Plugin 'tpope/vim-surround'
  Plugin 'Yggdroot/indentLine'
  Plugin 'indentpython.vim--nianyang'
  Plugin 'indentpython.vim'
@@ -41,6 +41,7 @@ filetype off                  " required
  Plugin 'tpope/vim-fugitive'
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-unimpaired'
 
   let g:airline#extensions#eclim#enabled = 1
 
@@ -60,20 +61,20 @@ Plugin 'scrooloose/syntastic'
  "
  " see :h vundle for more details or wiki for FAQ
  " Put your non-Plugin stuff after this line
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
 set number
 syntax on
 autocmd! bufwritepost .vimrc source %
 " Latex - Suite Config
 "REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
-" IMPORTANT: grep will sometimes skip displaying the file name if you 
-"search in a single file. This will confuse Latex-Suite. Set your grep 
+" IMPORTANT: grep will sometimes skip displaying the file name if you
+"search in a single file. This will confuse Latex-Suite. Set your grep
 "program to always generate a file-name.
 set grepprg=grep\ -nH\ S*
 
@@ -109,19 +110,27 @@ let g:airline#extensions#eclim#enabled = 1
 " MY Configs
 set number
 syntax on
-set cindent 
+set cindent
 set autoindent
 set filetype=python
-"set foldmethod=indent 
+"set foldmethod=indent
 set foldlevel=99
-" set smartindent 
-set shiftwidth=4 
-set ts=4 
-set cinwords=if,elif,else,for,while,try,except,finally,def,class 
+" set smartindent
+set shiftwidth=4
+set ts=4
+set cinwords=if,elif,else,for,while,try,except,finally,def,class
 set list lcs=tab:\|]
 let g:indentLine_color_term = 239
 let g:indentLine_char = '┊'
-let mapleader=" "
+" set spell
+let g:syntastic_error_symbol = "✗"
+let g:syntastic_warning_symbol = "⚠"
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_check_on_open = 1
+
 " Mappings
+let mapleader=" "
 nnoremap <Leader>g Go
 nnoremap <Leader>p  :source ~/.vimrc <cr> :PluginInstall <cr>
+nnoremap <Leader>fo   {jv}kzfj^[
+    set grepprg=grep\ -nH\ $*
