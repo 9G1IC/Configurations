@@ -42,9 +42,10 @@ filetype off                  " required
 Plugin 'LaTeX-Box-Team/LaTeX-Box'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-unimpaired'
-
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'jmcantrell/vim-numbered'
+Plugin 'kana/vim-textobj-user'
   let g:airline#extensions#eclim#enabled = 1
-
  " " All of your Plugins must be added before the following line
  call vundle#end()            " required
  filetype plugin indent on    " required
@@ -129,8 +130,11 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 1
 
 " Mappings
-let mapleader=" "
-nnoremap <Leader>g Go
-nnoremap <Leader>p  :source ~/.vimrc <cr> :PluginInstall <cr>
-nnoremap <Leader>fo   {jv}kzfj^[
-    set grepprg=grep\ -nH\ $*
+let mapleader="`"
+nnoremap <Leader>G   Go
+nnoremap <Leader>g   ggO
+nnoremap <Leader>p   :w <cr> :source ~/.vimrc <cr> :PluginInstall <cr>
+nnoremap <Leader>fo  {jv}kzfj^[
+inoremap <Leader>n   <ESC>ky jpaa
+set grepprg=grep\ -nH\ $*
+g:numbered_loaded

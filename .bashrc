@@ -1,3 +1,4 @@
+
 #~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -326,3 +327,4 @@ export LD_LIBRARY_PATH="/usr/local/cuda-7.0/lib:/home/hope/torch/install/lib:/ho
 export CUDA_ROOT="/usr/local/cuda-7.0/bin"
 export GIT_EDITOR="/usr/bin/vim"
 MYSPACE="/media/hope/MySpace"
+setxkbmap -layout us -option caps:swapescape
