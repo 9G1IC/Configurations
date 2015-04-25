@@ -2514,3 +2514,19 @@ rsync error: some files/attrs were not transferred (see previous errors) (code 2
 
 rsync: send_files failed to open "/home/hope/.viminfo": Permission denied (13)
 rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+
+
+rsync: send_files failed to open "/home/hope/.viminfo": Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+
+
+rsync: send_files failed to open "/home/hope/.viminfo": Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+
+
+rsync: send_files failed to open "/home/hope/.viminfo": Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
+
+
+rsync: send_files failed to open "/home/hope/.viminfo": Permission denied (13)
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1183) [sender=3.1.0]
