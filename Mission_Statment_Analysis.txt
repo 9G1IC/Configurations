@@ -1,0 +1,93 @@
+Data Structure 
+===============
+1 THE CORE FUNCTIONS OF THE ORGANIZATION
+  To issue environmental permits and pollution abatement notices for controlling
+  the volume, types, constituents and effects of waste discharge, emissions,
+  deposits or other source of pollutants and of substances which are hazardous or
+  potentially dangerous to the quality of the environment or any segment of the environment.
+  
+  To co-ordinate the activities of such bodies as it considers appropriate for
+  the purposes of controlling the generation, treatment, storage, transportation and disposal
+  of industrial waste.
+
+   To prescribe standards and guidelines relating to the pollution of air,
+  water, land other forms of environmental pollution including the discharge of wastes and the
+  control of toxic substances Chemicals Control Management Center - Management and disposal of hazardous
+  chemical and waste
+
+  The Ministry of Environment, Science, Technology and Innovation (MESTI)
+  through the Environmental Protection Agency is implementing the Ghana Environmental
+  Management Project (GEMP) in support of the implementation of Ghana’s National
+  Action Program to Combat Drought and Desertification (NAP).
+
+  To promote studies, research, surveys and analyses for the improvement and
+  Protection of the environment and the maintenance of sound ecological systems in Ghana.
+  Control bush burning
+
+2 A FULL DESCRIPTION OF THEIR ECOSYSTEM
+    0   SUBJECT
+            Pollutants
+                Solid 
+                    *Contracted to Zoomlion                    
+                Liquid
+                    Crude oil
+                Gaseous
+                    Carbon Monoxide
+                    Lead
+                    Nitrogen Dioxide
+                    Ozone
+                    Particle Pollution
+                    Sulfur Dioxide
+                Others
+                    Noise 
+					Vegetation
+        SUBJECT SOURCE            
+            Industries
+            Commercial activities
+            Domestic   activities
+        
+        OPERATION
+            METHODS
+                Enacting disposal policies
+                Monitoring *
+				Consultation with Town and Country planning agency (for maps)
+					
+            SERVICES
+                Advisory
+                Regulatory
+			EQUIPMENT	
+				Vehicles
+				Computers 
+				Stationary
+				Pollution measurement instrument
+			SOURCE OF EQUIPMENT	
+				importation
+
+            
+            THEIR CLIENTELE
+                Industries
+                Departments?
+                Institutions
+                The general public
+    3     SERVICE DELIVERY METHODS 
+                Education through workshops and training
+                Monitoring*
+		DEPENDENCIES	
+			External labs - Sample analysis
+3 THEIR MAIN OPERATIONAL HINDRANCES AND ITS ECONOMIC RAMIFICATIONS
+		Inadequate human resource * (More people are need for monitoring)
+		Inadequate logistics * (Little equipment)
+		Lack of enforceable standards
+4 PROBLEM STATEMENT
+		Dust pollution jeopardize human health - untarred roads
+		Air pollution is increasing yearly
+		Water pollutants render rivers dead
+		Particles of size 10 micrometer exceeds safe limits in some regions
+		Risk of financial loss through illnesses
+		Stale data (old maps)
+		Development goes ahead of planning
+		Risk of accidents due to encroachments
+		Faulty equipment
+  
+	CONCLUSION
+

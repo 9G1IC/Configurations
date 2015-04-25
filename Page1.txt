@@ -1,0 +1,44 @@
+Mobile Powerless Charger(mico—Charger)
+Designed by: Aaron Yankey Antwi 
+Idea date: 2009 
+Contact: +233204244772
+
+Claims
+
+1. PiC can generate power (>=5W) to charge low-power consumer mobile electronics some of which include but are not limited to, mobile phones, tablets and laptops.
+
+2. PiC does NOT require any external source of electric power for its operation, it only requires the user to be in a moving vehicle.
+
+4. PiC is a environment friendly because it does not generate pollutants.
+
+5. As long as the Pic is operating within its‘nominal operating regions and conditions, it is guaranteed to produce the rated power WITHOUT FUEL
+
+Design (Description)
+
+The Mobile Powerless Charger consists of the following subsystems:
+
+1.The turbine or propeller assembly 
+
+2.The generator  
+
+3.The control system
+
+4.The grip assembly
+
+5.The housing 
+
+6.The Backup battery 
+
+7.The software interface 
+
+1. The turbine assembly 
+This consists of the blades and shaft linkages which are pivoted in the housing and connected to the generator.  Air rushes in from the housing's air intake at the speed which is approximately equal to the Speed of the vehicle, and spins the turbines. The torque produced by the turbines propel the generator amateur shaft which sits the field of permanent magnet. The resultant energy is a pure DC electric energy that is used for charging.
+
+2. The generator
+This is a DC generator made of permanent magnets and an
+amateur winding and which converts the mechanical energy
+from the shaft into electric energy. Permanent magnets are
+used to provide a permanent source of magnetic field to
+
+1/9/2015 9:15:36 AM 2
+
