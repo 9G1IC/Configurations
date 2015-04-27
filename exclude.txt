@@ -42,6 +42,7 @@ torch
 .gconf
 Desktop
 dwhelper
+.aptitude
 .audacity-data
 .python-eggs
 .thumbnails

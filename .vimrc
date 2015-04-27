@@ -1,4 +1,4 @@
-" Set runtime path
+" Set runtime path 
 " Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -12,9 +12,9 @@ filetype off                  " required
 " " let Vundle manage Vundle, required
  Plugin 'gmarik/Vundle.vim'
 "
-" " The following are examples of different formats supported.
-" " Keep Plugin commands between vundle#begin/end.
-" " plugin on GitHub repo
+" " the following are examples of different formats supported.
+" " keep plugin commands between vundle#begin/end.
+" " plugin on github repo
 " " plugin from http://vim-scripts.org/vim/scripts.html
  Plugin 'L9'
 " " Git plugin not hosted on GitHub
@@ -113,7 +113,7 @@ set number
 syntax on
 set cindent
 set autoindent
-set filetype=python
+"set filetype=python
 "set foldmethod=indent
 set foldlevel=99
 " set smartindent
@@ -128,13 +128,23 @@ let g:syntastic_error_symbol = "✗"
 let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_check_on_open = 1
-
+set grepprg=grep\ -nH\ $*
 " Mappings
 let mapleader="`"
-nnoremap <Leader>G   Go
-nnoremap <Leader>g   ggO
-nnoremap <Leader>p   :w <cr> :source ~/.vimrc <cr> :PluginInstall <cr>
-nnoremap <Leader>fo  {jv}kzfj^[
-inoremap <Leader>n   <ESC>ky jpaa
-set grepprg=grep\ -nH\ $*
-g:numbered_loaded
+
+"Edit from line 1
+nnoremap GG   Go 
+"Edit from last line
+nnoremap Gg   ggO
+"Source .vimrc
+nnoremap <Leader>p   :w <cr> :source ~/.vimrc <cr> 
+"Source .vimrc and install plugins
+nnoremap <Leader>P   :w <cr> :source ~/.vimrc <cr> :PluginInstall <cr>
+"Edit vimrc 
+map  <Leader>e <ESC>:w<cr>:e ~/.vimrc <cr>
+" return to previous buffer 
+map  <Leader>E <ESC>:bp<cr>
+"Save the file in insert mode	
+map <ESC><ESC> <ESC> :w <cr>
+"Save current file and quit
+nnoremap <Leader>q :x <cr>

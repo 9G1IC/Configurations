@@ -3,9 +3,9 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 # If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
+case $- in *i*) 
+#exec tmux
+    #*) return;;
 esac
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -34,7 +34,7 @@ esac
 # uncomment for a colored prompt, if the terminal has the capability; turned
 # off by default to not distract the user: the focus in a terminal window
 # should be on the output of commands, not on the prompt
-#force_color_prompt=yes
+force_color_prompt=yes
 if [ -n "$force_color_prompt" ]; then
     if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
         # We have color support; assume it's compliant with Ecma-48
@@ -95,10 +95,12 @@ if ! shopt -oq posix; then
 fi
 ####################################################MY-SCRIPTS########################################################################
 #Variables
-user="hope";
+export user="hope";
 _doc="/media/$user/sda_Documents";
 _mm="/media/$user/sda_Multimedia";
 _sw="/media/$user/sda_Softwares";
+MYSPACE="/media/hope/MySpace"
+CRITICAL_WORK_SPACE="$MYSPACE/Critical_Workspace_Backup/Office_Workspace"
 ###Mount window drives
 issl="/mnt/Windows"
 tracker="$issl/Tracker/Satellite"
@@ -123,6 +125,16 @@ height=700;
 pass="hope"
 SW="$_sw/Sources"
 tab_mnt_dir="/home/$user/mnt_tab";
+##EXPORTS
+export PATH=/home/$user/torch/install/bin:$PATH  # Added automatically by torch-dist
+export LD_LIBRARY_PATH=/home/$user/torch/install/lib:$LD_LIBRARY_PATH  # Added automatically by torch-dist
+export DYLD_LIBRARY_PATH=/home/$user/torch/install/lib:$DYLD_LIBRARY_PATH  # Added automatically by torch-dist
+export PATH="$PATH:/usr/local/cuda-6.5/targets/x86_64-linux/lib/"
+
+export PATH="/usr/local/cuda-7.0/bin:/home/hope/torch/install/bin:/home/hope/torch/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/java/jre1.7.0_75/bin:/usr/local/cuda-6.5/targets/x86_64-linux/lib/:/usr/local/cuda-6.5/targets/x86_64-linux/lib/"
+export LD_LIBRARY_PATH="/usr/local/cuda-7.0/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:"
+export CUDA_ROOT="/usr/local/cuda-7.0/bin"
+export GIT_EDITOR="/usr/bin/vim"
 
 
 set -o vi
@@ -316,15 +328,9 @@ alias ssh_tab="ssh -X noraa@wtab"
 alias gstest="tuner gpredict & SoDaRadio --with-tracking & fdbk & rotor_ctl"
 ##Synch my vimrc and .vim
 alias vimsync="rsync --rsh=ssh --progress -r ~/.vim ~/.vimrc noraa@wtab:/home/noraa &"
+##Move me to my critical workshop
+alias work="pushd . && cd $CRITICAL_WORK_SPACE"
+work
 
-export PATH=/home/$user/torch/install/bin:$PATH  # Added automatically by torch-dist
-export LD_LIBRARY_PATH=/home/$user/torch/install/lib:$LD_LIBRARY_PATH  # Added automatically by torch-dist
-export DYLD_LIBRARY_PATH=/home/$user/torch/install/lib:$DYLD_LIBRARY_PATH  # Added automatically by torch-dist
-export PATH="$PATH:/usr/local/cuda-6.5/targets/x86_64-linux/lib/"
-
-export PATH="/usr/local/cuda-7.0/bin:/home/hope/torch/install/bin:/home/hope/torch/install/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/java/jre1.7.0_75/bin:/usr/local/cuda-6.5/targets/x86_64-linux/lib/:/usr/local/cuda-6.5/targets/x86_64-linux/lib/"
-export LD_LIBRARY_PATH="/usr/local/cuda-7.0/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:/home/hope/torch/install/lib:"
-export CUDA_ROOT="/usr/local/cuda-7.0/bin"
-export GIT_EDITOR="/usr/bin/vim"
-MYSPACE="/media/hope/MySpace"
+alias rm="rm -I"
 setxkbmap -layout us -option caps:swapescape
