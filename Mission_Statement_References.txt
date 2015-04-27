@@ -1,0 +1,7 @@
+References for Mission Statements
+
+1. Pan-Arctic lead detection from MODIS thermal infrared imagery
+	http://www.igsoc.org/annals/56/69/a69A615.pdf
+
+2.Undersampling correction for array detector-based satellite spectrometers
+		https://www.cfa.harvard.edu/atmosphere/publications/undersample-ao.pdf

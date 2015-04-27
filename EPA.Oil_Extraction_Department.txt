@@ -1,0 +1,77 @@
+
+Data Structure 
+===============
+1 THE CORE FUNCTIONS OF THE ORGANIZATION
+  To issue environmental permits and pollution abatement notices for controlling
+  the volume, types, constituents and effects of waste discharge, emissions,
+  deposits or other source of pollutants and of substances which are hazardous or
+  potentially dangerous to the quality of the environment or any segment of the environment.
+  
+  To co-ordinate the activities of such bodies as it considers appropriate for
+  the purposes of controlling the generation, treatment, storage, transportation and disposal
+  of industrial waste.
+
+   To prescribe standards and guidelines relating to the pollution of air,
+  water, land other forms of environmental pollution including the discharge of wastes and the
+  control of toxic substances Chemicals Control Management Center - Management and disposal of hazardous
+  chemical and waste
+
+  The Ministry of Environment, Science, Technology and Innovation (MESTI)
+  through the Environmental Protection Agency is implementing the Ghana Environmental
+  Management Project (GEMP) in support of the implementation of Ghana’s National
+  Action Program to Combat Drought and Desertification (NAP).
+
+  To promote studies, research, surveys and analyses for the improvement and
+  Protection of the environment and the maintenance of sound ecological systems in Ghana.
+  Control bush burning
+
+ EPA.OIL_EXTRACTION_DEPARTMENT
+================================ 
+A FULL DESCRIPTION OF THEIR ECOSYSTEM
+       SUBJECT
+			Heavy metals
+			Water PH
+			Sulfur Dioxides
+			Oxides of Nitrogen
+			Green House gases
+			Water quality around rigs
+       SUBJECT SOURCE            
+	   		Oil rigging activities
+
+        OPERATION
+            METHODS
+				Manual checks
+
+            SERVICES
+				N.A
+			EQUIPMENT	
+				N.A
+			SOURCE OF EQUIPMENT	
+				N.A
+            
+            THEIR CLIENTELE
+				N.A
+         SERVICE DELIVERY METHODS 
+				N.A
+		DEPENDENCIES	
+				N.A
+
+3 THEIR MAIN OPERATIONAL HINDRANCES AND ITS ECONOMIC RAMIFICATIONS
+			Transportation of inspectors to the oil rigs
+
+4 PROBLEM STATEMENT
+				N.A
+  
+		CRITICAL FUNCTION
+		
+Subject						Detection
+
+Heavy metals			   Spectrometers	
+Water PH				   Spectrometers		
+Sulfur Dioxides			   Spectrometers	
+Oxides of Nitrogen		   Spectrometers
+Water quality			   Optical Images
+
+		NOTES
+		There is no record of oil spillage in Ghana.
+		Oil spillage rarely occurs

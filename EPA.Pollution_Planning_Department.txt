@@ -24,8 +24,6 @@ Data Structure
   Protection of the environment and the maintenance of sound ecological systems in Ghana.
   Control bush burning
 
- EPA.POLLUTION_PLANNING_DEPARTMENT
-================================ 
 2 A FULL DESCRIPTION OF THEIR ECOSYSTEM
     0   SUBJECT
             Pollutants
@@ -107,54 +105,4 @@ Noise						NOT FEASIBLE
 		NOTES
 	Array-based spectrometers are relatively complex 	to integrate into a cubesat because of their power and link budgets.
 
- EPA.OIL_EXTRACTION_DEPARTMENT
-================================ 
-A FULL DESCRIPTION OF THEIR ECOSYSTEM
-       SUBJECT
-			Heavy metals
-			Water PH
-			Sulfur Dioxides
-			Oxides of Nitrogen
-			Green House gases
-			Water quality around rigs
-       SUBJECT SOURCE            
-	   		Oil rigging activities
-
-        OPERATION
-            METHODS
-				Manual checks
-
-            SERVICES
-				N.A
-			EQUIPMENT	
-				N.A
-			SOURCE OF EQUIPMENT	
-				N.A
-            
-            THEIR CLIENTELE
-				N.A
-         SERVICE DELIVERY METHODS 
-				N.A
-		DEPENDENCIES	
-				N.A
-
-3 THEIR MAIN OPERATIONAL HINDRANCES AND ITS ECONOMIC RAMIFICATIONS
-			Transportation of inspectors to the oil rigs
-
-4 PROBLEM STATEMENT
-				N.A
-  
-		CRITICAL FUNCTION
-		
-Subject						Detection
-
-Heavy metals			   Spectrometers	
-Water PH				   Spectrometers		
-Sulfur Dioxides			   Spectrometers	
-Oxides of Nitrogen		   Spectrometers
-Water quality			   Optical Images
-
-		NOTES
-		There is no record of oil spillage in Ghana.
-		Oil spillage rarely occurs
 
