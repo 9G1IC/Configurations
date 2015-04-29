@@ -1,5 +1,4 @@
-" Set runtime path 
-" Vundle
+" Set runtime path " Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
 

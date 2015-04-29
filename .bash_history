@@ -776,3 +776,29 @@ source .bashrc
 q
 w
 q
+ifconfig
+ifconfig brainwavesVPN0
+q
+tmux -S main
+clear
+q
+camera_back Yankey
+q
+ebash
+source ~/.bashrc
+ebash
+q
+ebash
+ll
+vim 
+c
+vim ~/.bashrc
+q
+ebash
+q
+ebash
+work
+cd $CRITICAL_WORK_SPACE
+ls
+vim Organisations.txt 
+q

@@ -329,7 +329,9 @@ alias gstest="tuner gpredict & SoDaRadio --with-tracking & fdbk & rotor_ctl"
 ##Synch my vimrc and .vim
 alias vimsync="rsync --rsh=ssh --progress -r ~/.vim ~/.vimrc noraa@wtab:/home/noraa &"
 ##Move me to my critical workshop
-alias work="pushd . && cd $CRITICAL_WORK_SPACE"
+work(){
+if [ "$(pwd)" != "$(popd)" ]; then `` else pushd $pwdx && cd $CRITICAL_WORK_SPACE; fi
+}
 work
 
 alias rm="rm -I"
